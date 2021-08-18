@@ -1,5 +1,5 @@
 {
-  "name": "@psydoc/vue-dawa-autocomplete",
+  "name": "@psydoc/dawa-autocomplete-vue2",
   "version": "0.0.1",
   "description": "",
   "main": "dist/vue-dawa-autocomplete.ssr.js",
