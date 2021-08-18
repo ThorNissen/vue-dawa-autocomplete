@@ -19,7 +19,7 @@ Then you need to import and register it:
 ></dawa-autocomplete>
 ```
 
-## [](https://www.npmjs.com/package/@psydoc/dawa-autocomplete-vue2#props)Props
+## [](https://www.npmjs.com/package/@psydoc/dawa-autocomplete-vue2#events)Events
 
 Name | Type | Description
 --- | --- | ---
