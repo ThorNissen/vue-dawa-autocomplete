@@ -1,19 +1,16 @@
 {
   "name": "@psydoc/vue-dawa-autocomplete",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-
   "main": "dist/vue-dawa-autocomplete.ssr.js",
   "browser": "dist/vue-dawa-autocomplete.esm.js",
   "module": "dist/vue-dawa-autocomplete.esm.js",
   "unpkg": "dist/vue-dawa-autocomplete.min.js",
-
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
   "sideEffects": false,
-
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "prebuild": "rimraf ./dist",
@@ -22,10 +19,10 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-
   "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "axios": "^0.21.1"
   },
-
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
